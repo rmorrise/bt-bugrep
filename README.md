@@ -6,14 +6,22 @@ Screencap and log files: [https://github.com/rmorrise/bt-bugrep/tree/master/rt-z
 
 Latest mod (AIO-79-0-987-Hotfix2.exe)
 
-Every time I fire a weapon on my Blackjack, the stats change so that it shows the weapon's damage as "0" after it's fired. I hit once with my gauss rifle +++, it blew off a Jenner's arm, then next time it showed as doing 0 damage in the status bar. Same thing with my UAC/10 (with precision ammo).
+The first time I fire any ballistic weapon, the stats change so that it shows the weapon's damage as "0" after it's fired. The weapon works the first time, but if I use it again in the same mission, it has no effect on subsequent turns.
 
-Once it got to this state, if I try to fire, the animation shows that it hit the enemy, but it plays the sound as if it missed ("no luck!") and does 0 damage.
-
-The Blackjack has not been hit by enemy fire at all, and I don't see a status effect on it that seems relevant.
-No other mechs are having this issue (they all have energy and melee weapons, though, so it could be a ballistic weapons issue?).
+If I try to fire again, the animation shows that it hit the enemy, but it does 0 damage.
 
 Saving and restarting the game doesn't fix it. If I go back to the pre-mission autosave, it fixes it again for one shot, then it breaks.
+
+Weapons tested:
+UAC/10 (precision ammo)
+Gauss Rifle+++ (normal ammo)
+AC/5 (normal ammo)
+AC/10 (normal ammo)
+
+'Mechs tested:
+Blackjack
+Shadowhawk
+Urbanmech
 
 ## Reliability: 100%
 
@@ -25,4 +33,4 @@ Saving and restarting the game doesn't fix it. If I go back to the pre-mission a
 
 The Blackjack's weapons all show as having 0 damage.
 
-I can consistently reproduce this issue on any autocannon or gauss rifle, on any 'mech that I've tested so far. (Even starting a new campaign.)
+I can also reproduce this when I start a new campaign, if the 'mechs in the starting lance have ballistic weapons.
