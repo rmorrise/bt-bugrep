@@ -15,3 +15,5 @@ See: [https://www.nexusmods.com/battletech/mods/79?tab=bugs]
 3) Play through to the Blackjack's next turn.
 
 The Blackjack's weapons all show as having 0 damage.
+
+I can consistently reproduce this issue on any autocannon or gauss rifle, on any 'mech that I've tested so far. (Even starting a new campaign.)
