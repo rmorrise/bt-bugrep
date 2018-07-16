@@ -107,7 +107,7 @@ Platform assembly: C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Batt
 Loading C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\BattleTech_Data\Managed\System.Security.dll into Unity Child Domain
 Platform assembly: C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\BattleTech_Data\Managed\System.Drawing.dll (this message is harmless)
 Loading C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\BattleTech_Data\Managed\System.Drawing.dll into Unity Child Domain
-- Completed reload, in  0.089 seconds
+- Completed reload, in  0.087 seconds
 Platform assembly: C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\BattleTech_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\BattleTech_Data\Managed\System.dll (this message is harmless)
 Shader 'UI/Default Font': fallback shader 'UI/Default' not found
@@ -124,7 +124,7 @@ Platform assembly: C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Batt
 Platform assembly: C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\BattleTech_Data\Managed\Mono.Data.Tds.dll (this message is harmless)
 Platform assembly: C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\BattleTech_Data\Managed\System.Xml.Linq.dll (this message is harmless)
 Platform assembly: C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\BattleTech_Data\Managed\System.Runtime.Serialization.dll (this message is harmless)
-UnloadTime: 1.626792 ms
+UnloadTime: 2.064578 ms
 Steam [LOG] Steam Overlay Initialized for Steam User ID: 76561197960558016
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -727,59 +727,67 @@ Attached unity initializer to BattleTechGame
 
 
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 11027.
-Total: 42.567020 ms (FindLiveObjects: 0.807277 ms CreateObjectMapping: 1.022025 ms MarkObjects: 40.693901 ms  DeleteObjects: 0.043028 ms)
+Total: 41.732113 ms (FindLiveObjects: 0.684508 ms CreateObjectMapping: 0.829778 ms MarkObjects: 40.174404 ms  DeleteObjects: 0.042633 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
+Attempting to Sync Quality Settings to Unity Built-In, but we're set to custom. Skipping
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 11030.
-Total: 41.110764 ms (FindLiveObjects: 0.521079 ms CreateObjectMapping: 0.875965 ms MarkObjects: 39.633194 ms  DeleteObjects: 0.079740 ms)
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 11503.
+Total: 49.121170 ms (FindLiveObjects: 0.839253 ms CreateObjectMapping: 0.951363 ms MarkObjects: 47.247654 ms  DeleteObjects: 0.081714 ms)
 
 LoginManager [LOG] Successfully authenticated with OPS. Moving onto ComStar connection proper.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Attempting to Sync Quality Settings to Unity Built-In, but we're set to custom. Skipping
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+Unloading 3 Unused Serialized files (Serialized files now loaded: 1)
+UnloadTime: 1.046105 ms
+Setting up 6 worker threads for Enlighten.
+  Thread -> id: 1be0 -> priority: 1 
+  Thread -> id: 268c -> priority: 1 
+  Thread -> id: 1718 -> priority: 1 
+  Thread -> id: 3c6c -> priority: 1 
+  Thread -> id: e2c -> priority: 1 
+  Thread -> id: 1874 -> priority: 1 
 
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 11529.
+Total: 44.567257 ms (FindLiveObjects: 0.594109 ms CreateObjectMapping: 0.763459 ms MarkObjects: 43.174950 ms  DeleteObjects: 0.033949 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 1)
+UnloadTime: 0.364755 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 11525.
+Total: 45.016884 ms (FindLiveObjects: 0.591740 ms CreateObjectMapping: 0.932020 ms MarkObjects: 43.474964 ms  DeleteObjects: 0.017369 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 11525.
+Total: 43.117313 ms (FindLiveObjects: 0.633584 ms CreateObjectMapping: 0.737405 ms MarkObjects: 41.713955 ms  DeleteObjects: 0.031580 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 1)
+UnloadTime: 0.357649 ms
 BattleTech.Rendering.MechCustomization.ColorSwatch must be instantiated using the ScriptableObject.CreateInstance method instead of new ColorSwatch.
  
 (Filename:  Line: 598)
 
-Unloading 3 Unused Serialized files (Serialized files now loaded: 1)
-UnloadTime: 1.601923 ms
-Setting up 6 worker threads for Enlighten.
-  Thread -> id: 3010 -> priority: 1 
-  Thread -> id: 117c -> priority: 1 
-  Thread -> id: 3584 -> priority: 1 
-  Thread -> id: 1218 -> priority: 1 
-  Thread -> id: be8 -> priority: 1 
-  Thread -> id: 6e8 -> priority: 1 
 
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 11535.
-Total: 44.765423 ms (FindLiveObjects: 0.579503 ms CreateObjectMapping: 0.807672 ms MarkObjects: 43.317062 ms  DeleteObjects: 0.060397 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 1)
-UnloadTime: 0.420810 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 11531.
-Total: 43.328903 ms (FindLiveObjects: 0.555028 ms CreateObjectMapping: 0.885439 ms MarkObjects: 41.858829 ms  DeleteObjects: 0.028817 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
-
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 11531.
-Total: 42.664131 ms (FindLiveObjects: 0.596082 ms CreateObjectMapping: 0.535290 ms MarkObjects: 41.507893 ms  DeleteObjects: 0.024474 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 1)
-UnloadTime: 0.443706 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 15234.
-Total: 64.858154 ms (FindLiveObjects: 0.881886 ms CreateObjectMapping: 1.638635 ms MarkObjects: 62.307629 ms  DeleteObjects: 0.029212 ms)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 15231.
+Total: 63.737831 ms (FindLiveObjects: 0.987286 ms CreateObjectMapping: 0.941889 ms MarkObjects: 61.761288 ms  DeleteObjects: 0.046581 ms)
 
 Unloading 2 Unused Serialized files (Serialized files now loaded: 1)
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 15234.
-Total: 59.993565 ms (FindLiveObjects: 0.750037 ms CreateObjectMapping: 0.956101 ms MarkObjects: 58.237293 ms  DeleteObjects: 0.049344 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 15231.
+Total: 57.062496 ms (FindLiveObjects: 0.824647 ms CreateObjectMapping: 0.799382 ms MarkObjects: 55.373329 ms  DeleteObjects: 0.064345 ms)
+
+State Changed Connecting => Closed
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+SSE Closed...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 The referenced script on this Behaviour (Game Object 'Item') is missing!
  
@@ -1779,24 +1787,24 @@ No more conditionals. Closing!
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 10)
-UnloadTime: 2.832380 ms
+UnloadTime: 2.253666 ms
 
 Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 36481.
-Total: 345.915161 ms (FindLiveObjects: 2.828432 ms CreateObjectMapping: 2.867908 ms MarkObjects: 340.093658 ms  DeleteObjects: 0.123164 ms)
+Total: 249.377365 ms (FindLiveObjects: 2.575393 ms CreateObjectMapping: 2.376830 ms MarkObjects: 244.279877 ms  DeleteObjects: 0.144481 ms)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 10)
-UnloadTime: 3.337274 ms
+UnloadTime: 3.263849 ms
 
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 36443.
-Total: 242.152924 ms (FindLiveObjects: 2.297879 ms CreateObjectMapping: 2.084316 ms MarkObjects: 237.678757 ms  DeleteObjects: 0.091188 ms)
+Total: 242.009628 ms (FindLiveObjects: 2.041682 ms CreateObjectMapping: 1.811539 ms MarkObjects: 238.045868 ms  DeleteObjects: 0.109742 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 10)
 
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 36443.
-Total: 241.140762 ms (FindLiveObjects: 2.212217 ms CreateObjectMapping: 1.971415 ms MarkObjects: 236.883316 ms  DeleteObjects: 0.072635 ms)
+Total: 241.566315 ms (FindLiveObjects: 2.175110 ms CreateObjectMapping: 2.032602 ms MarkObjects: 237.287933 ms  DeleteObjects: 0.069871 ms)
 
 Unloading 19 Unused Serialized files (Serialized files now loaded: 10)
-UnloadTime: 2.278141 ms
+UnloadTime: 2.414727 ms
 TerrainCollider: MeshCollider is not supported on terrain at the moment.
  
 (Filename:  Line: 188)
@@ -1823,7 +1831,7 @@ TerrainCollider: MeshCollider is not supported on terrain at the moment.
 
 
 Unloading 5317 unused Assets to reduce memory usage. Loaded Objects now: 244721.
-Total: 487.394409 ms (FindLiveObjects: 16.314510 ms CreateObjectMapping: 13.625032 ms MarkObjects: 387.892822 ms  DeleteObjects: 69.560890 ms)
+Total: 497.810486 ms (FindLiveObjects: 15.875541 ms CreateObjectMapping: 12.106008 ms MarkObjects: 398.440308 ms  DeleteObjects: 71.387436 ms)
 
 BoxColliders does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
@@ -2080,1127 +2088,17 @@ If you absolutely need to use negative scaling you can use the convex MeshCollid
 Unloading 3 Unused Serialized files (Serialized files now loaded: 15)
 
 Unloading 897 unused Assets to reduce memory usage. Loaded Objects now: 326833.
-Total: 803.830750 ms (FindLiveObjects: 22.901028 ms CreateObjectMapping: 15.923701 ms MarkObjects: 732.224609 ms  DeleteObjects: 32.780212 ms)
+Total: 807.172363 ms (FindLiveObjects: 22.451006 ms CreateObjectMapping: 16.762953 ms MarkObjects: 732.596069 ms  DeleteObjects: 35.361526 ms)
 
-CombatLog.MechImpacts [ERROR] ExpectedResolveDamange Completed = False, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 0 already cleared for processing 1 time(s)!
+icPanel_deco :: This tween's target is NULL, because the animation was created with a DOTween Pro version older than 0.9.255. To fix this, exit Play mode then simply select this object, and it will update automatically
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CombatLog.MechImpacts [ERROR] ExpectedResolveDamange Completed = False, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 1 already cleared for processing 1 time(s)!
+icPanel_deco :: This tween's target is NULL, because the animation was created with a DOTween Pro version older than 0.9.255. To fix this, exit Play mode then simply select this object, and it will update automatically
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CombatLog.MechImpacts [ERROR] MessageCoordinator errors detected!
-ExpectedMessage 0 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 0
-ExpectedMessage 1 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 1
-
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] MessageCoordinator errors detected!
-ExpectedMessage 0 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 0
-ExpectedMessage 1 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 1
-
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-============> Error in CombatHUDStatusPanel - need more buff/debuff indicators
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-============> Error in CombatHUDStatusPanel - need more buff/debuff indicators
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer higher damage
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer attack from behind
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer 90 degrees
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer no closer than weapon min dist to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer lower LOS to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer facing hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer lower armor of hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer presenting higher armor to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer within melee distance to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer to be behind braced hostile targets
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer lower damage from hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-minVal: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-maxVal: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer LOS to most hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer to not to leave my rear armor open for lethal shots from hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to approach the rear arc of enemies
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to be a safe distance away from enemies when sprinting
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to approach the ideal weapon range to targets
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to take more firepower away from hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] ExpectedResolveDamange Completed = False, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 0 already cleared for processing 1 time(s)!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] ExpectedResolveDamange Completed = False, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 1 already cleared for processing 1 time(s)!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] MessageCoordinator errors detected!
-ExpectedMessage 0 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 0
-ExpectedMessage 1 ExpectedResolveDamange Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 1
-
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] MessageCoordinator errors detected!
-ExpectedMessage 0 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 0
-ExpectedMessage 1 ExpectedResolveDamange Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 1
-
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer higher damage
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer attack from behind
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer 90 degrees
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer no closer than weapon min dist to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer lower LOS to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer facing hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer lower armor of hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer presenting higher armor to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer within melee distance to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer to be behind braced hostile targets
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer lower damage from hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-minVal: -69.46875
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-maxVal: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer LOS to most hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer to not to leave my rear armor open for lethal shots from hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to approach the rear arc of enemies
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to be a safe distance away from enemies when sprinting
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to approach the ideal weapon range to targets
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to take more firepower away from hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] ExpectedResolveDamange Completed = False, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 0 already cleared for processing 1 time(s)!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] ExpectedResolveDamange Completed = False, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 1 already cleared for processing 1 time(s)!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] ExpectedResolveDamange Completed = False, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 2 already cleared for processing 1 time(s)!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] ExpectedResolveDamange Completed = False, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 3 already cleared for processing 1 time(s)!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] MessageCoordinator errors detected!
-ExpectedMessage 0 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 0
-ExpectedMessage 1 ExpectedResolveDamange Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 1
-ExpectedMessage 2 ExpectedResolveDamange Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 2
-ExpectedMessage 3 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 3, Shot = 2
-ExpectedMessage 4 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 3
-
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] MessageCoordinator errors detected!
-ExpectedMessage 0 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 0
-ExpectedMessage 1 ExpectedResolveDamange Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 1
-ExpectedMessage 2 ExpectedResolveDamange Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 2
-ExpectedMessage 3 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 3, Shot = 2
-ExpectedMessage 4 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 3
-
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer higher damage
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer attack from behind
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer 90 degrees
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer no closer than weapon min dist to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer lower LOS to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer facing hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer lower armor of hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer presenting higher armor to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer within melee distance to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer to be behind braced hostile targets
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer lower damage from hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-minVal: -47.25
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-maxVal: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer LOS to most hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer to not to leave my rear armor open for lethal shots from hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to approach the rear arc of enemies
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to be a safe distance away from enemies when sprinting
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to approach the ideal weapon range to targets
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to take more firepower away from hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] ExpectedResolveDamange Completed = False, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 0 already cleared for processing 1 time(s)!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] ExpectedResolveDamange Completed = False, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 1 already cleared for processing 1 time(s)!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] ExpectedResolveDamange Completed = False, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 2 already cleared for processing 1 time(s)!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] MessageCoordinator errors detected!
-ExpectedMessage 0 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 0
-ExpectedMessage 1 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 1, Shot = 0
-ExpectedMessage 2 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 1, Shot = 1
-ExpectedMessage 3 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 1
-ExpectedMessage 4 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 2, Shot = 0
-ExpectedMessage 5 ExpectedImpact Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 2, Shot = 5
-ExpectedMessage 6 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 2
-
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] MessageCoordinator errors detected!
-ExpectedMessage 0 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 0
-ExpectedMessage 1 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 1, Shot = 0
-ExpectedMessage 2 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 1, Shot = 1
-ExpectedMessage 3 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 1
-ExpectedMessage 4 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 2, Shot = 0
-ExpectedMessage 5 ExpectedImpact Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 2, Shot = 5
-ExpectedMessage 6 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 2
-
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer higher damage
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer attack from behind
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer 90 degrees
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer no closer than weapon min dist to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer lower LOS to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer facing hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer lower armor of hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer presenting higher armor to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer within melee distance to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer to be behind braced hostile targets
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer lower damage from hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-minVal: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-maxVal: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer LOS to most hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer to not to leave my rear armor open for lethal shots from hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to approach the rear arc of enemies
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to be a safe distance away from enemies when sprinting
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to approach the ideal weapon range to targets
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to take more firepower away from hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer higher damage
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer attack from behind
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer 90 degrees
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer no closer than weapon min dist to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer lower LOS to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer facing hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer lower armor of hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer presenting higher armor to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer within melee distance to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer to be behind braced hostile targets
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer lower damage from hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-minVal: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-maxVal: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer LOS to most hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer to not to leave my rear armor open for lethal shots from hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to approach the rear arc of enemies
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to be a safe distance away from enemies when sprinting
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to approach the ideal weapon range to targets
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to take more firepower away from hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] ExpectedResolveDamange Completed = False, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 0 already cleared for processing 1 time(s)!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] ExpectedResolveDamange Completed = False, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 1 already cleared for processing 1 time(s)!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] ExpectedResolveDamange Completed = False, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 2 already cleared for processing 1 time(s)!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] ExpectedResolveDamange Completed = False, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 3 already cleared for processing 1 time(s)!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] ExpectedResolveDamange Completed = False, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 4 already cleared for processing 1 time(s)!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] ExpectedResolveDamange Completed = False, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 5 already cleared for processing 1 time(s)!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] MessageCoordinator errors detected!
-ExpectedMessage 0 ExpectedImpact Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 0, Shot = 2
-ExpectedMessage 1 ExpectedImpact Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 0, Shot = 4
-ExpectedMessage 2 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 0
-ExpectedMessage 3 ExpectedImpact Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 1, Shot = 1
-ExpectedMessage 4 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 1
-ExpectedMessage 5 ExpectedImpact Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 2, Shot = 0
-ExpectedMessage 6 ExpectedImpact Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 2, Shot = 3
-ExpectedMessage 7 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 2
-ExpectedMessage 8 ExpectedImpact Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 3, Shot = 2
-ExpectedMessage 9 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 3
-ExpectedMessage 10 ExpectedImpact Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 4, Shot = 1
-ExpectedMessage 11 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 4
-ExpectedMessage 12 ExpectedImpact Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 5, Shot = 2
-ExpectedMessage 13 ExpectedImpact Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 5, Shot = 3
-ExpectedMessage 14 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 5
-
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] MessageCoordinator errors detected!
-ExpectedMessage 0 ExpectedImpact Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 0, Shot = 2
-ExpectedMessage 1 ExpectedImpact Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 0, Shot = 4
-ExpectedMessage 2 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 0
-ExpectedMessage 3 ExpectedImpact Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 1, Shot = 1
-ExpectedMessage 4 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 1
-ExpectedMessage 5 ExpectedImpact Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 2, Shot = 0
-ExpectedMessage 6 ExpectedImpact Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 2, Shot = 3
-ExpectedMessage 7 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 2
-ExpectedMessage 8 ExpectedImpact Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 3, Shot = 2
-ExpectedMessage 9 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 3
-ExpectedMessage 10 ExpectedImpact Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 4, Shot = 1
-ExpectedMessage 11 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 4
-ExpectedMessage 12 ExpectedImpact Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 5, Shot = 2
-ExpectedMessage 13 ExpectedImpact Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 5, Shot = 3
-ExpectedMessage 14 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 5
-
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer higher damage
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer attack from behind
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer 90 degrees
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer no closer than weapon min dist to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer lower LOS to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer facing hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer lower armor of hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer presenting higher armor to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer within melee distance to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer to be behind braced hostile targets
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer lower damage from hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-minVal: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-maxVal: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer LOS to most hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer to not to leave my rear armor open for lethal shots from hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to approach the rear arc of enemies
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to be a safe distance away from enemies when sprinting
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to approach the ideal weapon range to targets
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to take more firepower away from hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer higher damage
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer attack from behind
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer 90 degrees
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer no closer than weapon min dist to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer lower LOS to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer facing hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer lower armor of hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer presenting higher armor to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer within melee distance to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer to be behind braced hostile targets
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer lower damage from hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-minVal: -122.0625
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-maxVal: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer LOS to most hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer to not to leave my rear armor open for lethal shots from hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to approach the rear arc of enemies
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to be a safe distance away from enemies when sprinting
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to approach the ideal weapon range to targets
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to take more firepower away from hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] ExpectedResolveDamange Completed = False, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 0 already cleared for processing 1 time(s)!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] ExpectedResolveDamange Completed = False, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 1 already cleared for processing 1 time(s)!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] ExpectedResolveDamange Completed = False, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 2 already cleared for processing 1 time(s)!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] ExpectedResolveDamange Completed = False, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 3 already cleared for processing 1 time(s)!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] ExpectedResolveDamange Completed = False, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 4 already cleared for processing 1 time(s)!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] ExpectedResolveDamange Completed = False, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 5 already cleared for processing 1 time(s)!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] ExpectedResolveDamange Completed = False, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 6 already cleared for processing 1 time(s)!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] ExpectedResolveDamange Completed = False, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 7 already cleared for processing 1 time(s)!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] MessageCoordinator errors detected!
-ExpectedMessage 0 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 0
-ExpectedMessage 1 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 1
-ExpectedMessage 2 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 2, Shot = 0
-ExpectedMessage 3 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 2
-ExpectedMessage 4 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 3
-ExpectedMessage 5 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 4, Shot = 0
-ExpectedMessage 6 ExpectedResolveDamange Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 4
-ExpectedMessage 7 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 5, Shot = 0
-ExpectedMessage 8 ExpectedResolveDamange Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 5
-ExpectedMessage 9 ExpectedResolveDamange Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 6
-ExpectedMessage 10 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 7, Shot = 0
-ExpectedMessage 11 ExpectedResolveDamange Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 7
-
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] MessageCoordinator errors detected!
-ExpectedMessage 0 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 0
-ExpectedMessage 1 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 1
-ExpectedMessage 2 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 2, Shot = 0
-ExpectedMessage 3 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 2
-ExpectedMessage 4 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 3
-ExpectedMessage 5 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 4, Shot = 0
-ExpectedMessage 6 ExpectedResolveDamange Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 4
-ExpectedMessage 7 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 5, Shot = 0
-ExpectedMessage 8 ExpectedResolveDamange Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 5
-ExpectedMessage 9 ExpectedResolveDamange Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 6
-ExpectedMessage 10 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 7, Shot = 0
-ExpectedMessage 11 ExpectedResolveDamange Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 7
-
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer higher damage
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer attack from behind
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer 90 degrees
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer no closer than weapon min dist to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer lower LOS to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer facing hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer lower armor of hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer presenting higher armor to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer within melee distance to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer to be behind braced hostile targets
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer lower damage from hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-minVal: -45.5625
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-maxVal: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer LOS to most hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer to not to leave my rear armor open for lethal shots from hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to approach the rear arc of enemies
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to be a safe distance away from enemies when sprinting
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to approach the ideal weapon range to targets
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to take more firepower away from hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] ExpectedResolveDamange Completed = False, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 0 already cleared for processing 1 time(s)!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] ExpectedResolveDamange Completed = False, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 1 already cleared for processing 1 time(s)!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] ExpectedResolveDamange Completed = False, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 2 already cleared for processing 1 time(s)!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] MessageCoordinator errors detected!
-ExpectedMessage 0 ExpectedImpact Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 0, Shot = 0
-ExpectedMessage 1 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 0
-ExpectedMessage 2 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 1, Shot = 0
-ExpectedMessage 3 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 1, Shot = 1
-ExpectedMessage 4 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 1, Shot = 3
-ExpectedMessage 5 ExpectedResolveDamange Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 1
-ExpectedMessage 6 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 2, Shot = 0
-ExpectedMessage 7 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 2, Shot = 1
-ExpectedMessage 8 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 2, Shot = 2
-ExpectedMessage 9 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 2, Shot = 4
-ExpectedMessage 10 ExpectedImpact Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 2, Shot = 5
-ExpectedMessage 11 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 2
-
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] MessageCoordinator errors detected!
-ExpectedMessage 0 ExpectedImpact Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 0, Shot = 0
-ExpectedMessage 1 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 0
-ExpectedMessage 2 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 1, Shot = 0
-ExpectedMessage 3 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 1, Shot = 1
-ExpectedMessage 4 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 1, Shot = 3
-ExpectedMessage 5 ExpectedResolveDamange Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 1
-ExpectedMessage 6 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 2, Shot = 0
-ExpectedMessage 7 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 2, Shot = 1
-ExpectedMessage 8 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 2, Shot = 2
-ExpectedMessage 9 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 2, Shot = 4
-ExpectedMessage 10 ExpectedImpact Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 2, Shot = 5
-ExpectedMessage 11 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 2
-
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer higher damage
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer attack from behind
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer 90 degrees
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer no closer than weapon min dist to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer lower LOS to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer facing hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer lower armor of hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer presenting higher armor to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer within melee distance to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer to be behind braced hostile targets
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer lower damage from hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-minVal: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-maxVal: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer LOS to most hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer to not to leave my rear armor open for lethal shots from hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to approach the rear arc of enemies
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to be a safe distance away from enemies when sprinting
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to approach the ideal weapon range to targets
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to take more firepower away from hostiles
+icPanel_deco :: This tween's target is NULL, because the animation was created with a DOTween Pro version older than 0.9.255. To fix this, exit Play mode then simply select this object, and it will update automatically
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -3213,34 +2111,50 @@ CombatLog.MechImpacts [ERROR] ExpectedResolveDamange Completed = False, StoredEa
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
+CombatLog.MechImpacts [ERROR] Storing message AttackSequenceImpactMessage Group = 0, Weapon = 1, Shot = 0 while marked as complete!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CombatLog.MechImpacts [ERROR] Storing a message AttackSequenceImpactMessage Group = 0, Weapon = 1, Shot = 0 is overwriting an existing stored message!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CombatLog.MechImpacts [ERROR] Storing message AttackSequenceImpactMessage Group = 0, Weapon = 1, Shot = 0 while marked as complete!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CombatLog.MechImpacts [ERROR] Storing a message AttackSequenceImpactMessage Group = 0, Weapon = 1, Shot = 0 is overwriting an existing stored message!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CombatLog.MechImpacts [ERROR] Storing message AttackSequenceImpactMessage Group = 0, Weapon = 1, Shot = 1 while marked as complete!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CombatLog.MechImpacts [ERROR] Storing message AttackSequenceImpactMessage Group = 0, Weapon = 1, Shot = 1 while marked as complete!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CombatLog.MechImpacts [ERROR] Storing a message AttackSequenceImpactMessage Group = 0, Weapon = 1, Shot = 1 is overwriting an existing stored message!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
 CombatLog.MechImpacts [ERROR] ExpectedResolveDamange Completed = False, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
 	Group = 0, Weapon = 1 already cleared for processing 1 time(s)!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-CombatLog.MechImpacts [ERROR] ExpectedResolveDamange Completed = False, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 2 already cleared for processing 1 time(s)!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] ExpectedResolveDamange Completed = False, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
-	Group = 0, Weapon = 3 already cleared for processing 1 time(s)!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
 CombatLog.MechImpacts [ERROR] MessageCoordinator errors detected!
 ExpectedMessage 0 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
 	Group = 0, Weapon = 0, Shot = 0
 ExpectedMessage 1 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
 	Group = 0, Weapon = 0
-ExpectedMessage 2 ExpectedImpact Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
+ExpectedMessage 2 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
 	Group = 0, Weapon = 1, Shot = 0
-ExpectedMessage 3 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 1
+ExpectedMessage 3 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
+	Group = 0, Weapon = 1, Shot = 1
 ExpectedMessage 4 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 2
-ExpectedMessage 5 ExpectedResolveDamange Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 3
+	Group = 0, Weapon = 1
 
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -3250,141 +2164,13 @@ ExpectedMessage 0 ExpectedImpact Completed = True, StoredEarlyMessage = True, Se
 	Group = 0, Weapon = 0, Shot = 0
 ExpectedMessage 1 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
 	Group = 0, Weapon = 0
-ExpectedMessage 2 ExpectedImpact Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
+ExpectedMessage 2 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
 	Group = 0, Weapon = 1, Shot = 0
-ExpectedMessage 3 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 1
+ExpectedMessage 3 ExpectedImpact Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 1
+	Group = 0, Weapon = 1, Shot = 1
 ExpectedMessage 4 ExpectedResolveDamange Completed = True, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 2
-ExpectedMessage 5 ExpectedResolveDamange Completed = True, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = True, TimesClearedForProcessing = 2
-	Group = 0, Weapon = 3
-
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-SimGameState [LOG] [BeginSave]
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Enable save toast 303.5713
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-SimGameState [LOG] [SaveComplete]
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Disable save toast304.0759
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Hide save toast307.0876
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Invisible save toast 309.1167
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] MessageCoordinator errors detected!
-ExpectedMessage 0 ExpectedImpact Completed = False, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = False, TimesClearedForProcessing = 0
-	Group = 0, Weapon = 0, Shot = 0
-ExpectedMessage 1 ExpectedResolveDamange Completed = False, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = False, TimesClearedForProcessing = 0
-	Group = 0, Weapon = 0
-ExpectedMessage 2 ExpectedImpact Completed = False, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = False, TimesClearedForProcessing = 0
-	Group = 0, Weapon = 1, Shot = 1
-ExpectedMessage 3 ExpectedResolveDamange Completed = False, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = False, TimesClearedForProcessing = 0
 	Group = 0, Weapon = 1
 
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CombatLog.MechImpacts [ERROR] MessageCoordinator errors detected!
-ExpectedMessage 0 ExpectedImpact Completed = False, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = False, TimesClearedForProcessing = 0
-	Group = 0, Weapon = 0, Shot = 0
-ExpectedMessage 1 ExpectedResolveDamange Completed = False, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = False, TimesClearedForProcessing = 0
-	Group = 0, Weapon = 0
-ExpectedMessage 2 ExpectedImpact Completed = False, StoredEarlyMessage = False, SentEarlyMessage = False, ClearedForProcessing = False, TimesClearedForProcessing = 0
-	Group = 0, Weapon = 1, Shot = 1
-ExpectedMessage 3 ExpectedResolveDamange Completed = False, StoredEarlyMessage = True, SentEarlyMessage = False, ClearedForProcessing = False, TimesClearedForProcessing = 0
-	Group = 0, Weapon = 1
-
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer higher damage
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer attack from behind
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer 90 degrees
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer no closer than weapon min dist to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer lower LOS to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer facing hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer lower armor of hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer presenting higher armor to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer within melee distance to hostile
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer to be behind braced hostile targets
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer lower damage from hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-minVal: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-maxVal: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer LOS to most hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating prefer to not to leave my rear armor open for lethal shots from hostiles
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to approach the rear arc of enemies
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to be a safe distance away from enemies when sprinting
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to approach the ideal weapon range to targets
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-evaluating Prefer to take more firepower away from hostiles
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
