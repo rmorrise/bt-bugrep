@@ -4,7 +4,16 @@ Screencap and log files: [https://github.com/rmorrise/bt-bugrep/tree/master/rt-z
 
 ## Description of issue
 
-See: [https://www.nexusmods.com/battletech/mods/79?tab=bugs]
+Latest mod (AIO-79-0-987-Hotfix2.exe)
+
+Every time I fire a weapon on my Blackjack, the stats change so that it shows the weapon's damage as "0" after it's fired. I hit once with my gauss rifle +++, it blew off a Jenner's arm, then next time it showed as doing 0 damage in the status bar. Same thing with my UAC/10 (with precision ammo).
+
+Once it got to this state, if I try to fire, the animation shows that it hit the enemy, but it plays the sound as if it missed ("no luck!") and does 0 damage.
+
+The Blackjack has not been hit by enemy fire at all, and I don't see a status effect on it that seems relevant.
+No other mechs are having this issue (they all have energy and melee weapons, though, so it could be a ballistic weapons issue?).
+
+Saving and restarting the game doesn't fix it. If I go back to the pre-mission autosave, it fixes it again for one shot, then it breaks.
 
 ## Reliability: 100%
 
