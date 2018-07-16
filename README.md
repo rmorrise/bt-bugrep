@@ -13,15 +13,15 @@ If I try to fire again, the animation shows that it hit the enemy, but it does 0
 Saving and restarting the game doesn't fix it. If I go back to the pre-mission autosave, it fixes it again for one shot, then it breaks.
 
 Weapons tested:
-UAC/10 (precision ammo)
-Gauss Rifle+++ (normal ammo)
-AC/5 (normal ammo)
-AC/10 (normal ammo)
+* UAC/10 (precision ammo)
+* Gauss Rifle+++ (normal ammo)
+* AC/5 (normal ammo)
+* AC/10 (normal ammo)
 
 'Mechs tested:
-Blackjack
-Shadowhawk
-Urbanmech
+* Blackjack
+* Shadowhawk
+* Urbanmech
 
 ## Reliability: 100%
 
